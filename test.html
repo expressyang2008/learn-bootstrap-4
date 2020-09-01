@@ -6,33 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
     <link rel='stylesheet' href='http://unpkg.com/bootstrap@4.0.0-beta.2/dist/css/bootstrap.css'>
-    <link rel="stylesheet" href='css/index.css'>
     <script src='https://unpkg.com/jquery@3.2.1/dist/jquery.js', charset="utf-8"></script>
     <script src='https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js' charset="utf-8"></script>
     <script src='https:unpkg.com/bootstrap@4.0.0-beta.2/dist/js/bootstrap.js' charset="utf-8"></script>
     <script src='./script.js' charset="utf-8"></script>
+
+    <style>
+      .news li{
+        float:left;
+        width:25%;
+        height:128px;
+      }
+
+      .news li:nth-child(1){
+        width:50%;
+        height:266px;
+        background-color:blue;
+      }
+   </style>
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <header class="col-md-2">
-          <div class="logo">
-            <a href="#">
-              <img src="images/logo.jpg" alt="" class="img-rounded center-block">
-            </a>
-          </div>
 
-          <div class="nav">
-            <ul>
-              <li><a href="#" class="glyphicon glyphicon-camera">生活馆</a></li>
-              <li><a href="#">自然汇</a></li>
-              <li><a href="#">科技潮</a></li>
-              <li><a href="#">奇趣事</a></li>
-              <li><a href="#">美食杰</a></li>
-            </ul>
-          </div>
-      </header>
-      <article class="col-md-7">
           <!-- 新闻 -->
           <div class="news">
             <ul>
@@ -44,18 +39,7 @@
             </ul>
           </div>
 
-          <!-- 发表 -->
-          <div class="publish"></div>
-      </article>
-
-
-
-      <aside class="col-md-1">Right Side</aside>
-      </div>
-    </div>
-
-
-
+          </div>
 
   </body>
 </html>

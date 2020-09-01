@@ -1,0 +1,28 @@
+2三种方式添加CSS样式
+2.1外部样式表
+  CSS保存在.css文件中;
+  在HTML里使用<link>引用
+2.2内部样式表
+  不使用外部CSS文件;
+  将CSS放在HTML<style>里;
+2.3内联样式表
+  仅影响一个元素
+  在HTML元素的style属性中添加
+
+
+3选择器
+<p class="paragraph" id="para1">Lorem</p>
+
+p{
+  color:red;
+}
+
+.paragraph{
+color:red;
+}
+
+#para1{
+   color:red;
+
+}
+参考资料：https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
